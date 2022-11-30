@@ -1,6 +1,6 @@
 import createApiClient from "./api.service";
 class noteService {
-    constructor(baseUrl = "/api/myapp") {
+    constructor(baseUrl = "/api/book") {
         this.api = createApiClient(baseUrl);
     }
     async getAll() {
