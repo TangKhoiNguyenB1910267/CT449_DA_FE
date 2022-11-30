@@ -7,9 +7,6 @@
             retriveSrc(){
                 return this.book.linkImage;
             },
-            retriveHref(){
-                return this.book.linkBook;
-            }
         }
     };
 </script>
@@ -27,16 +24,12 @@
             {{ book.author }}
         </div>
         <div class="p-1">
-            <strong>Link Sách: </strong>
-            <a :href="retriveHref">{{ book.linkBook }}</a>
-        </div>
-        <div class="p-1">
-            <strong>Nội Dung Sơ Lược: </strong>
+            <strong>Nội Dung: </strong>
             {{ book.content }}
         </div>
         <div class="p-1">
-            <strong>Quan Trọng:&nbsp;</strong>
-            <i v-if="book.important" class="fas fa-check"></i>
+            <strong>Yêu Thích:&nbsp;</strong>
+            <i v-if="book.favorite" class="fas fa-check"></i>
             <i v-else class="fas fa-times"></i>
         </div>
     </div>

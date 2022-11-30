@@ -6,7 +6,7 @@
     </div>
 </template>
 <script>
-import registerForm from "@/components/registerForm.vue";
+import registerForm from "@/components/Register.vue";
 import userService from "@/services/user.service";
 export default {
     components: {

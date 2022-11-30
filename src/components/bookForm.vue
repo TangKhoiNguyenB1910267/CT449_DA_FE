@@ -11,24 +11,19 @@
             <ErrorMessage name="author" class="error-feedback" />
         </div>
         <div class="form-group">
-            <label for="content">Nội Dung Sơ Lược: </label>
+            <label for="content">Nội Dung : </label>
             <Field name="content" type="text" class="form-control" v-model="bookLocal.content" />
             <ErrorMessage name="content" class="error-feedback" />
         </div>
         <div class="form-group">
-            <label for="image">Link Hình Ảnh: </label>
+            <label for="image">ImageURL: </label>
             <Field name="image" type="text" class="form-control" v-model="bookLocal.linkImage" />
             <ErrorMessage name="image" class="error-feedback" />
         </div>
-        <div class="form-group">
-            <label for="linkBook">Link Sách: </label>
-            <Field name="linkBook" type="text" class="form-control" v-model="bookLocal.linkBook" />
-            <ErrorMessage name="linkBook" class="error-feedback" />
-        </div>
         <div class="form-group form-check">
-            <input name="important" type="checkbox" class="form-check-input" v-model="bookLocal.important" />
-            <label for="important" class="form-check-label">
-                <strong>Quan Trọng</strong>
+            <input name="favorite" type="checkbox" class="form-check-input" v-model="bookLocal.favorite" />
+            <label for="favorite" class="form-check-label">
+                <strong>Yêu thích</strong>
             </label>
         </div>
         <div class="form-group">

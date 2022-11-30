@@ -1,7 +1,7 @@
 <template>
 
     <div id="register" class="card mb-3">
-        <h4>Đăng Ký</h4>
+        <h4>SIGN UP</h4>
         <div class="row g-0 d-flex align-items-center">
             <div class="col-lg-12">
                 <div class="card-body">

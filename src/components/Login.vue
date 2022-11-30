@@ -1,6 +1,6 @@
 <template>
     <div class="card mb-3">
-        <h4>Đăng Nhập</h4>
+        <h4>SIGN IN</h4>
         <div class="row g-0 d-flex align-items-center">
             <div class="col-lg-8" style="margin: 0 0 50px 50px;">
                 <div class="card-body">

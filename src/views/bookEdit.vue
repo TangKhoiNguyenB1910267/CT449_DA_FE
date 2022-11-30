@@ -6,7 +6,7 @@
     </div>
 </template>
 <script>
-import bookForm from "@/components/bookForm.vue";
+import bookForm from "@/components/BookForm.vue";
 import bookService from "@/services/book.service";
 export default {
     components: {

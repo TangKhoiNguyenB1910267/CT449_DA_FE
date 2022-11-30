@@ -1,5 +1,5 @@
 import { createWebHistory, createRouter } from "vue-router";
-import Books from "@/views/book.vue";
+import Books from "@/views/Book.vue";
 import NotFound from "@/views/NotFound.vue";
 import User from "@/views/User.vue";
 import bookEdit from "@/views/bookEdit.vue";
@@ -7,7 +7,7 @@ import bookAdd from "@/views/bookAdd.vue";
 import register from "@/views/register.vue";
 const routes = [
     {
-        path: "/",
+        path: "/user",
         name: "user",
         component: User,
     },
@@ -30,7 +30,7 @@ const routes = [
         path: "/books/:id",
         name: "book.edit",
         component: bookEdit,
-        props: true // Truyền các biến trong $route.params vào làm props
+        props: true 
     },
     {
         path: "/books/add",

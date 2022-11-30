@@ -39,9 +39,9 @@
 </template>
 
 <script>
-import ContactCard from "@/components/bookCard.vue";
+import ContactCard from "@/components/BookCard.vue";
 import InputSearch from "@/components/InputSearch.vue";
-import ContactList from "@/components/bookList.vue";
+import ContactList from "@/components/BookList.vue";
 import bookService from "@/services/book.service";
 export default {
     components: {

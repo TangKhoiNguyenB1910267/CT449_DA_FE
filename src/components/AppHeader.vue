@@ -9,12 +9,12 @@
             </router-link>
             <router-link :to="{ name: 'book.add' }" >
                 <li class="nav-item">
-                    <a href="#" class="navbar-brand">THÊM MỚI</a>
+                    <a href="#" class="navbar-brand">THÊM SÁCH</a>
                 </li>
             </router-link>
             <li class="nav-item" style="margin-left: 700px;">
                 <router-link :to="{ name: 'user' }" class="navbar-brand">
-                    ĐĂNG XUẤT
+                    ĐĂNG NHẬP
                 </router-link>
             </li>
         </ul>
